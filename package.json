@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moises-herrera/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moises-herrera/weather-app/issues"
+  },
+  "homepage": "https://github.com/moises-herrera/weather-app#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
